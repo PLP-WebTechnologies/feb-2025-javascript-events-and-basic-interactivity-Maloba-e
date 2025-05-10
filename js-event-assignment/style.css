@@ -1,0 +1,23 @@
+.body{
+    font-family: arial,sans-serif;
+}
+
+.container{
+    padding:20px;
+    background-color: aqua;
+    display: flex;
+    gap:50px;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: black;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    
+}
+.item:hover{
+    background-color: pink;
+    transition: margin-right 2s ease-out;
+}
